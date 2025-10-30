@@ -93,7 +93,7 @@ require('dotenv').config();
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 
 // const Person = require('./models/person');
